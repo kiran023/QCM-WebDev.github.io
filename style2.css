@@ -1,0 +1,153 @@
+*{
+    font-family: sans-serif;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    padding-left: 104px;
+    margin: 40px;
+    height: fit-content;
+    width: fit-content;
+  }
+  
+  .box::before {
+  content: "";
+  background-image: linear-gradient(rgba(3, 5, 87, 0.746),rgba(11, 15, 243, 0.746)), url(img.jpg);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 500px;
+  top: 70px;
+  height: 70vh;
+  width: 50vw;
+  }
+  #diamond {
+    width: 0;
+    height: 0;
+    border: 28px solid transparent;
+    border-bottom-color: #0d9ac8;
+    position: absolute;
+    top: 72px;
+    left: 471px;
+  }
+  #diamond:after {
+    content: '';
+    position: absolute;
+    left: -27px;
+    top: 28px;
+    width: 0;
+    height: 0;
+    border: 28px solid transparent;
+    border-top-color: #0d9ac8;
+  }
+  #diamond2 {
+    width: 0;
+    height: 0;
+    border: 28px solid transparent;
+    border-bottom-color: #0d9ac8;
+    position: absolute;
+    top: 374px;
+    left: 472px;
+}
+  #diamond2:after {
+    content: '';
+    position: absolute;
+    left: -27px;
+    top: 28px;
+    width: 0;
+    height: 0;
+    border: 28px solid transparent;
+    border-top-color: #0d9ac8;
+  }
+  .input {
+    margin: 0px;
+    box-shadow: 0px 9px 13px 1px #dadfe4, 1px 2px 17px #dadfe4;
+  }
+  
+  input[type="password"], input[type="email"], input[type="text"] {
+  width: 220px;
+    padding: 7px;
+    border: 2px solid #0d9ac8 ;
+    border-radius: 2px;
+  
+  }
+    input[type="email"], input[type="text"] {
+    border-bottom: none;
+  }
+  
+  button{
+    width: 238px;
+    padding: 7px;
+    
+  }
+  
+  #btn1{
+    background-color: rgb(6, 123, 190);
+    color: white;
+    border: none;
+    border-radius: 2px;
+   
+  }
+  
+  #btn2{
+    background-color: white;
+    border: none;
+    box-shadow: 0px 5px 13px 1px #dadfe4, 1px 2px 17px #dadfe4;
+   background: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    background-size: contain;
+    height: 31px;
+    width: 231px; 
+}
+
+
+  form p{
+    border-radius: 5px;
+  }
+  
+  
+  h2{
+    color: rgb(72 81 90);
+  font-family: sans-serif;
+  font-weight: normal;
+  }
+  
+  a{
+    color: red;
+  }
+  
+  span, a{
+    font-size: 12px;
+  }
+  
+  legend {
+    
+    text-align: center;
+    margin: 21px;
+  }
+  legend:before, legend:after {
+    background-color: #777575;
+    content: "";
+    display: inline-block;
+    height: 0.5px;
+    position: relative;
+    vertical-align: middle;
+    width: 54%;
+  }
+  legend:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  legend:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  
+  
+  
+  
+  
